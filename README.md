@@ -1,5 +1,5 @@
-# Your Project's Title...
-Your project's description...
+# Adobe Project Franklin POC
+Adobe Project Franklin POC
 
 ## Environments
 - Preview: https://main--{repo}--{owner}.hlx.page/
