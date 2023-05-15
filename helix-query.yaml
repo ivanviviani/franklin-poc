@@ -3,9 +3,9 @@ indices:
     include:
       - /it/**
     exclude:
-      - /it/**/nav
-      - /it/**/footer
-      - /it/**/experimentation/**
+      - /it/*/nav
+      - /it/*/footer
+      - /it/*/experimentation/**
     target: /it/query-index.json
     properties:
       lastModified:
@@ -24,9 +24,9 @@ indices:
     include:
       - /ch/**
     exclude:
-      - /ch/**/nav
-      - /ch/**/footer
-      - /ch/**/experimentation/**
+      - /ch/*/nav
+      - /ch/*/footer
+      - /ch/*/experimentation/**
     target: /ch/query-index.json
     properties:
       lastModified:
