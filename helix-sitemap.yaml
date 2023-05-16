@@ -17,7 +17,7 @@ sitemaps:
         alternate: /it/en/{path}
   ch:
     origin: https://main--franklin-poc--ivanviviani.hlx.live/ch
-    source: /ch/sitemap.xml
+    source: /ch/query-index.json
     destination: /ch/sitemap.xml
     default: it
     languages:
