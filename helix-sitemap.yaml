@@ -7,7 +7,7 @@ sitemaps:
     source: /query-index.json
     destination: /sitemap.xml
   it:
-    origin: https://main--franklin-poc--ivanviviani.hlx.live/it
+    origin: https://main--franklin-poc--ivanviviani.hlx.live
     lastmod: YYYY-MM-DD
     default: it
     languages:
@@ -22,7 +22,7 @@ sitemaps:
         hreflang: en
         alternate: /it/en/{path}
   ch:
-    origin: https://main--franklin-poc--ivanviviani.hlx.live/ch
+    origin: https://main--franklin-poc--ivanviviani.hlx.live
     lastmod: YYYY-MM-DD
     default: it
     languages:
