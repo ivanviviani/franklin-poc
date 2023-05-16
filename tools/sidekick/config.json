@@ -1,4 +1,4 @@
 {
     "project": "Adobe Franklin POC",
-    "host": "main--franklin-poc--ivanviviani.hlx.live"
+    "host": "localhost:3001"
 }
