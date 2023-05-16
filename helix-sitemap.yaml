@@ -1,10 +1,10 @@
 sitemaps:
   default:
-    origin: http://localhost:3001
+    origin: http://main--franklin-poc--ivanviviani.hlx.live
     source: /query-index.json
     destination: /sitemap.xml
   it:
-    origin: http://localhost:3001/it
+    origin: https://main--franklin-poc--ivanviviani.hlx.live/it
     source: /it/query-index.json
     destination: /it/sitemap.xml
     default: it
@@ -16,7 +16,7 @@ sitemaps:
         hreflang: en
         alternate: /it/en/{path}
   ch:
-    origin: http://localhost:3001/ch
+    origin: https://main--franklin-poc--ivanviviani.hlx.live/ch
     source: /ch/query-index.json
     destination: /ch/sitemap.xml
     default: it
