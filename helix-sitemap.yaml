@@ -1,29 +1,6 @@
 sitemaps:
-  default:
-    origin: http://main--franklin-poc--ivanviviani.hlx.live
+  all:
+    origin: https://main--franklin-poc--ivanviviani.hlx.live
     source: /query-index.json
     destination: /sitemap.xml
-  it:
-    origin: https://main--franklin-poc--ivanviviani.hlx.live/it
-    source: /it/query-index.json
-    destination: /it/sitemap.xml
-    default: it
-    languages:
-      it:
-        hreflang: it
-        alternate: /it/it/{path}
-      en:
-        hreflang: en
-        alternate: /it/en/{path}
-  ch:
-    origin: https://main--franklin-poc--ivanviviani.hlx.live/ch
-    source: /ch/query-index.json
-    destination: /ch/sitemap.xml
-    default: it
-    languages:
-      it:
-        hreflang: it
-        alternate: /ch/it/{path}
-      en:
-        hreflang: en
-        alternate: /ch/en/{path}
+    Lastmod: YYYY-MM-DD
