@@ -1,3 +1,7 @@
+main .form-wrapper {
+  max-width: 50rem;
+}
+
 main .form {
   background-color: white;
   padding: var(--spacing-m);
@@ -31,6 +35,7 @@ main .form select {
 
 main .form textarea {
   min-height: 100px;
+  resize: vertical;
 }
 
 main .form input:hover,
@@ -46,7 +51,7 @@ main .form label {
   padding-bottom: var(--spacing-xs);
   text-transform: uppercase;
   box-sizing: border-box;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 main .form label.required::after {
@@ -113,7 +118,7 @@ main .form .button {
   color: white;
   border-radius: 16px;
   font-size: var(--type-body-s-size);
-  font-weight: 300;
+  font-weight: 400;
   padding: 6px 16px;
   border: none;
   font-family: adobe-clean, 'Trebuchet MS', sans-serif;

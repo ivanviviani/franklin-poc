@@ -51,6 +51,7 @@ function createButton(fd) {
   button.textContent = fd.Label;
   button.classList.add('button');
   if (fd.Type === 'submit') {
+    button.type = 'submit';
     button.addEventListener('click', async (event) => {
       const form = button.closest('form');
       if (fd.Placeholder) form.dataset.action = fd.Placeholder;
@@ -58,10 +59,12 @@ function createButton(fd) {
         event.preventDefault();
         button.setAttribute('disabled', '');
         await submitForm(form);
-        const redirectTo = fd.Extra;
-        window.location.href = redirectTo;
+        const redirectTo = fd.RedirectTo;
+        if (redirectTo) window.location.href = redirectTo;
       }
     });
+  } else {
+    button.type = 'button';
   }
   return button;
 }
@@ -76,6 +79,7 @@ function createInput(fd) {
   const input = document.createElement('input');
   input.type = fd.Type;
   input.id = fd.Field;
+  input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
@@ -86,6 +90,7 @@ function createInput(fd) {
 function createTextArea(fd) {
   const input = document.createElement('textarea');
   input.id = fd.Field;
+  input.name = fd.Field;
   input.setAttribute('placeholder', fd.Placeholder);
   if (fd.Mandatory === 'x') {
     input.setAttribute('required', 'required');
