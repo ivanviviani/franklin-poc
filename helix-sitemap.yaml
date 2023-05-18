@@ -25,12 +25,12 @@ sitemaps:
     Lastmod: YYYY-MM-DD hh:mm:ss
     languages:
       it:
-        source: /ch/it/query-index.json
+        source: /ch/query-index.json
         destination: /ch/sitemap.xml
         hreflang: it
         alternate: /{path}
       en:
-        source: /ch/en/query-index.json
+        source: /ch/query-index.json
         destination: /ch/sitemap.xml
         hreflang: en
         alternate: /{path}
