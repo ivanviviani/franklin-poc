@@ -10,12 +10,12 @@ sitemaps:
         source: /it/query-index.json
         destination: /it/sitemap.xml
         hreflang: it
-        alternate: /it/{path}
+        alternate: /it/it/{path}
       en:
         source: /it/query-index.json
         destination: /it/sitemap.xml
         hreflang: en
-        alternate: /{path}
+        alternate: /it/en/{path}
   ch:
     origin: https://main--franklin-poc--ivanviviani.hlx.page
     Lastmod: YYYY-MM-DD hh:mm:ss
@@ -25,9 +25,9 @@ sitemaps:
         source: /ch/query-index.json
         destination: /ch/sitemap.xml
         hreflang: it
-        alternate: /it/{path}
+        alternate: /ch/it/{path}
       en:
         source: /ch/query-index.json
         destination: /ch/sitemap.xml
         hreflang: en
-        alternate: /{path}
+        alternate: /ch/en/{path}
