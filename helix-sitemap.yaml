@@ -14,6 +14,7 @@ sitemaps:
         source: /it/it/query-index.json
         destination: /it/sitemap.xml
         hreflang: it
+        alternate: /{path}
       en:
         source: /it/en/query-index.json
         destination: /it/sitemap.xml
@@ -27,6 +28,7 @@ sitemaps:
         source: /ch/it/query-index.json
         destination: /ch/sitemap.xml
         hreflang: it
+        alternate: /{path}
       en:
         source: /ch/en/query-index.json
         destination: /ch/sitemap.xml
