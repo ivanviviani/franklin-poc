@@ -3,30 +3,34 @@ version: 1
 sitemaps:
   default:
     origin: http://main--franklin-poc--ivanviviani.hlx.live
-    lastmod: YYYY-MM-DD
+    lastmod: YYYY-MM-DD hh:mm:ss
     source: /query-index.json
     destination: /sitemap.xml
   it:
     origin: https://main--franklin-poc--ivanviviani.hlx.live/it
     lastmod: YYYY-MM-DD
-    source: /it/query-index.json
-    destination: /it/sitemap.xml
     languages:
       it:
+        source: /it/it/query-index.json
+        destination: /it/sitemap.xml
         hreflang: it
         alternate: /it/{path}
       en:
+        source: /it/en/query-index.json
+        destination: /it/sitemap.xml
         hreflang: en
         alternate: /en/{path}
   ch:
     origin: https://main--franklin-poc--ivanviviani.hlx.live/ch
-    lastmod: YYYY-MM-DD
-    source: /ch/query-index.json
-    destination: /ch/sitemap.xml
+    lastmod: YYYY-MM-DD hh:mm:ss
     languages:
       it:
+        source: /ch/it/query-index.json
+        destination: /ch/sitemap.xml
         hreflang: it
         alternate: /it/{path}
       en:
+        source: /ch/en/query-index.json
+        destination: /ch/sitemap.xml
         hreflang: en
         alternate: /en/{path}
