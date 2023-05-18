@@ -2,7 +2,7 @@ version: 1
 
 sitemaps:
   it:
-    origin: https://main--franklin-poc--ivanviviani.hlx.live
+    origin: https://main--franklin-poc--ivanviviani.hlx.page
     Lastmod: YYYY-MM-DD hh:mm:ss
     source: /it/query-index.json
     destination: /it/sitemap.xml
@@ -15,7 +15,7 @@ sitemaps:
         hreflang: en
         alternate: /it/en/{path}
   ch:
-    origin: https://main--franklin-poc--ivanviviani.hlx.live
+    origin: https://main--franklin-poc--ivanviviani.hlx.page
     Lastmod: YYYY-MM-DD hh:mm:ss
     source: /ch/query-index.json
     destination: /ch/sitemap.xml
