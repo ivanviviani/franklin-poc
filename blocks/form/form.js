@@ -75,6 +75,12 @@ function createHeading(fd) {
   return heading;
 }
 
+function createParagraph(fd) {
+  const paragraph = document.createElement('p');
+  paragraph.textContent = fd.Label;
+  return paragraph;
+}
+
 function createInput(fd) {
   const input = document.createElement('input');
   input.type = fd.Type;
@@ -169,6 +175,9 @@ async function createForm(formURL) {
         break;
       case 'submit':
         fieldWrapper.append(createButton(fd));
+        break;
+      case 'aggregateInfo':
+        fieldWrapper.append(createParagraph(fd));
         break;
       default:
         fieldWrapper.append(createLabel(fd));
